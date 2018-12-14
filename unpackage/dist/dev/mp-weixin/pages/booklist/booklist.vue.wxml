@@ -1,0 +1,37 @@
+<import src="/components/uni-tag.vue.wxml" />
+<template name="55652b13">
+  <view class="_view data-v-29b57a8e">
+    <view class="_view data-v-29b57a8e uni-list" wx:if="{{listId}}">
+      <view class="_view data-v-29b57a8e uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" wx:for="{{bookList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-29b57a8e uni-media-list" bindtap="handleProxy" data-id="{{item._id}}" data-eventid="{{'icp-0-'+index}}" data-comkey="{{$k}}">
+          <image class="_image data-v-29b57a8e uni-media-list-logo" mode="widthFix" src="{{item.cover}}"></image>
+          <view class="_view data-v-29b57a8e uni-media-list-body">
+            <view class="_view data-v-29b57a8e uni-media-list-text-top">{{item.title}}</view>
+            <view class="_view data-v-29b57a8e uni-media-list-text-bottom uni-ellipsis"> {{item.author}}
+              <view class="_view data-v-29b57a8e tag-view">
+                <template type="success" size="small" data="{{...$root['0'], ...$root[$kk+'5g9-0-'+index],$root}}" is="76b5a250"></template>
+              </view>
+            </view>
+            <view class="_view data-v-29b57a8e uni-media-list-text-bottom duoeli">{{item.shortIntro}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-29b57a8e uni-list" wx:else>
+      <view class="_view data-v-29b57a8e uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" wx:for="{{bookList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-29b57a8e uni-media-list" bindtap="handleProxy" data-id="{{item.book._id}}" data-eventid="{{'VOK-1-'+index}}" data-comkey="{{$k}}">
+          <image class="_image data-v-29b57a8e uni-media-list-logo" mode="widthFix" src="{{item.book.cover}}"></image>
+          <view class="_view data-v-29b57a8e uni-media-list-body">
+            <view class="_view data-v-29b57a8e uni-media-list-text-top">{{item.book.title}}</view>
+            <view class="_view data-v-29b57a8e uni-media-list-text-bottom uni-ellipsis"> {{item.book.author}}
+              <view class="_view data-v-29b57a8e tag-view">
+                <template type="success" size="small" data="{{...$root['0'], ...$root[$kk+'KVY-1-'+index],$root}}" is="76b5a250"></template>
+              </view>
+            </view>
+            <view class="_view data-v-29b57a8e uni-media-list-text-bottom duoeli">{{item.comment}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

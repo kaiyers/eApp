@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([[2,1],".",[1],"textarea1{padding:0 ",[0,16],";background:#fff;color:#000}\n.",[1],"textarea2{background:#111}\n.",[1],"textarea2,.",[1],"textarea3{padding:0 ",[0,16],";color:#fff}\n.",[1],"textarea3{background:url(http://img4.imgtn.bdimg.com/it/u\x3d1441836535,74210295\x26fm\x3d26\x26gp\x3d0.jpg);background-size:100% 100%}\n.",[1],"textarea4{padding:0 ",[0,16],";background:url(http://img3.imgtn.bdimg.com/it/u\x3d191202121,458334980\x26fm\x3d26\x26gp\x3d0.jpg);background-size:100% 100%;color:#333}\n.",[1],"textarea0{width:",[0,720],"}\n.",[1],"mulu{line-height:",[0,60],";font-size:",[0,32],";text-align:center;width:100%;position:fixed;top:0;right:0;background:#666;color:#fff}\n.",[1],"mulu,.",[1],"muludi{height:",[0,60],"}\n.",[1],"fanye{margin:",[0,20]," 0;padding:0 ",[0,30],";display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;align-items:center}\n.",[1],"nowPage{color:#666}\n.",[1],"vip{color:red}\n.",[1],"novip,.",[1],"vip{font-weight:700}\n.",[1],"novip{color:#eee}\n.",[1],"dwtitel{height:",[0,60],";line-height:",[0,60],";font-size:",[0,32],";text-align:center;color:#007aff}\n.",[1],"tag-view{display:inline-block;margin:",[0,10]," ",[0,14],"}\n.",[1],"uni-numbox{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;flex-direction:row;-webkit-box-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;height:",[0,70],"}\n.",[1],"uni-numbox-minus,.",[1],"uni-numbox-plus{margin:0;background-color:#f9f9f9;width:",[0,80],";height:100%;line-height:",[0,70],";text-align:center;color:#555}\n.",[1],"uni-numbox-minus{border:",[0,2]," solid #ccc;border-right:none;border-top-left-radius:",[0,6],";border-bottom-left-radius:",[0,6],"}\n.",[1],"uni-numbox-plus{border:",[0,2]," solid #ccc;border-left:none;border-top-right-radius:",[0,6],";border-bottom-right-radius:",[0,6],"}\n.",[1],"uni-numbox-value{border:",[0,2]," solid #ccc;background-color:#fff;width:",[0,80],";height:100%;text-align:center}\n.",[1],"uni-numbox-disabled{color:silver}\n",],undefined,{path:"./pages/bookcontenr/bookcontenr.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/bookcontenr/bookcontenr.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

@@ -1,0 +1,23 @@
+<import src="/components/uni-drawer.vue.wxml" />
+<template name="7bb9fdef">
+  <view class="_view data-v-73374a64">
+    <scroll-view scroll-y bindscrolltolower="handleProxy" class="_scroll-view data-v-73374a64 bookWai" data-eventid="{{'PGQ-1'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-73374a64 uni-padding-wrap">
+        <view class="_view data-v-73374a64 uni-list">
+          <view class="_view data-v-73374a64 uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" wx:for="{{bookList}}" wx:for-index="index" wx:for-item="item">
+            <view class="_view data-v-73374a64 uni-media-list" bindtap="handleProxy" data-id="{{item._id}}" data-eventid="{{'Q3R-0-'+index}}" data-comkey="{{$k}}">
+              <image class="_image data-v-73374a64 uni-media-list-logo" src="{{item.cover}}" mode="widthFix"></image>
+              <view class="_view data-v-73374a64 uni-media-list-body">
+                <view class="_view data-v-73374a64 uni-media-list-text-top">{{item.title}}</view>
+                <view class="_view data-v-73374a64 uni-media-list-text-bottom uni-ellipsis">{{item.author}}</view>
+                <view class="_view data-v-73374a64 uni-media-list-text-bottom uni-ellipsis">{{item.lastChapter}}</view>
+                <view class="_view data-v-73374a64 uni-media-list-text-bottom duoeli">{{item.shortIntro}}</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+    <template mode="right" bindclose="handleProxy" data-eventid="{{'x7Z-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'tI0-0'],$root, $slotdefault:'data-v-73374a64-default-tI0-0'}}" is="20d2f0ba"></template>
+  </view>
+</template>

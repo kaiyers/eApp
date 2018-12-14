@@ -1,0 +1,31 @@
+<template name="1143ab1a">
+  <view class="_view data-v-68a30c24 uni-tab-bar">
+    <scroll-view id="tab-bar" class="_scroll-view data-v-68a30c24 uni-swiper-tab" scroll-x scroll-left="{{scrollLeft}}">
+      <view wx:key="tab.id" key="{{tab.id}}" id="{{tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'YZk-0-'+index}}" data-comkey="{{$k}}" wx:for="{{tabBars}}" wx:for-index="index" wx:for-item="tab" class="_view data-v-68a30c24 {{['swiper-tab-list', tabIndex == index ? 'active' : '']}}">{{tab.name}}</view>
+    </scroll-view>
+    <swiper current="{{tabIndex}}" class="_swiper data-v-68a30c24 swiper-box" duration="300" bindchange="handleProxy" style="height: 26.6rem;" data-eventid="{{'p7s-5'}}" data-comkey="{{$k}}">
+      <swiper-item class="_swiper-item data-v-68a30c24">
+        <scroll-view class="_scroll-view data-v-68a30c24 list" scroll-y style="height: 26.4rem;padding-left: 2%;">
+          <view wx:key="index" key="{{index}}" class="_view data-v-68a30c24 itembtn" bindtap="handleProxy" data-id="{{newsitem._id}}" data-eventid="{{'k4D-1-'+index}}" data-comkey="{{$k}}" wx:for="{{female}}" wx:for-index="index" wx:for-item="newsitem">
+          {{newsitem.shortTitle}} </view>
+        </scroll-view>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-68a30c24">
+        <scroll-view class="_scroll-view data-v-68a30c24 list" scroll-y style="height: 26.4rem;padding-left: 2%;">
+          <view wx:key="index" key="{{index}}" class="_view data-v-68a30c24 itembtn" bindtap="handleProxy" data-id="{{newsitem._id}}" data-eventid="{{'XSk-2-'+index}}" data-comkey="{{$k}}" wx:for="{{male}}" wx:for-index="index" wx:for-item="newsitem"> {{newsitem.shortTitle}} </view>
+        </scroll-view>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-68a30c24">
+        <scroll-view class="_scroll-view data-v-68a30c24 list" scroll-y style="height: 26.4rem;padding-left: 2%;">
+          <view wx:key="index" key="{{index}}" class="_view data-v-68a30c24 itembtn" bindtap="handleProxy" data-id="{{newsitem._id}}" data-eventid="{{'QIs-3-'+index}}" data-comkey="{{$k}}" wx:for="{{epub}}" wx:for-index="index" wx:for-item="newsitem"> {{newsitem.shortTitle}} </view>
+        </scroll-view>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-68a30c24">
+        <scroll-view class="_scroll-view data-v-68a30c24 list" scroll-y style="height: 26.4rem;padding-left: 2%;">
+          <view wx:key="index" key="{{index}}" class="_view data-v-68a30c24 itembtn" bindtap="handleProxy" data-id="{{newsitem._id}}" data-eventid="{{'hnE-4-'+index}}" data-comkey="{{$k}}" wx:for="{{picture}}" wx:for-index="index" wx:for-item="newsitem">
+          {{newsitem.shortTitle}} </view>
+        </scroll-view>
+      </swiper-item>
+    </swiper>
+  </view>
+</template>

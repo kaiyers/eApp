@@ -1,0 +1,15 @@
+@import "../../common/vendor.wxss";
+
+.itembtn {
+  color: #f0ad4e;
+  background-color: #FFFFFF;
+  border: 1px solid #f0ad4e;
+  width: 22%;
+  height: 180rpx;
+  text-align: center;
+  line-height: 180rpx;
+  font-size: 36rpx;
+  display: inline-block;
+  margin-top: 40rpx;
+  margin-right: 2%;
+}

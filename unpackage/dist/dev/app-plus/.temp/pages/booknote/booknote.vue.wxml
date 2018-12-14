@@ -1,0 +1,76 @@
+<import src="/components/uni-segmented-control.vue.wxml" />
+<import src="/components/uni-tag.vue.wxml" />
+<template name="6c09e993">
+  <view class="_view data-v-405a390e">
+    <view class="_view data-v-405a390e uni-padding-wrap uni-common-mt" style="position:fixed;background:#fff;height:70rpx;padding-top:30rpx;margin-top: 0;z-index: 100;">
+      <template bindclickItem="handleProxy" data-eventid="{{'26M-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'LVB-0'],$root}}" is="69251260"></template>
+    </view>
+    <view class="_view data-v-405a390e content">
+      <view hidden="{{!(current === 0)}}" class="_view data-v-405a390e">
+        <image mode="widthFix" src="{{bookdetail.cover}}" class="_image data-v-405a390e bookImg"></image>
+        <view class="_view data-v-405a390e title">{{bookdetail.title}}</view>
+        <view class="_view data-v-405a390e">
+          <view class="_view data-v-405a390e tag-view" wx:key="key" key="{{key}}" wx:for="{{bookdetail.tags}}" wx:for-index="index" wx:for-item="item">
+            <template type="success" size="small" data="{{...$root['0'], ...$root[$kk+'Oun-1-'+index],$root}}" is="76b5a250"></template>
+          </view>
+        </view>
+        <navigator url="../bookauthor/bookauthor?author=bookdetail.author" class="_navigator data-v-405a390e at">{{bookdetail.author}}</navigator>
+        <view class="_view data-v-405a390e at">{{bookdetail.lastChapter}}</view>
+        <view class="_view data-v-405a390e at">更新于 {{bookdetail.updated}}</view>
+        <view class="_view data-v-405a390e">
+          <view class="_view data-v-405a390e tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-idx="{{index}}" data-eventid="{{'a7L-1-'+index}}" data-comkey="{{$k}}" wx:for="{{sourceList}}" wx:for-index="index" wx:for-item="item">
+            <template inverted="true" data="{{...$root['0'], ...$root[$kk+'Kst-2-'+index],$root}}" is="76b5a250"></template>
+          </view>
+        </view>
+        <view class="_view data-v-405a390e at lt">{{bookdetail.longIntro}}</view>
+      </view>
+      <view hidden="{{!(current === 1)}}" class="_view data-v-405a390e">
+        <view class="_view data-v-405a390e uni-product-list">
+          <view class="_view data-v-405a390e uni-product" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'Eod-2-'+index}}" data-comkey="{{$k}}" wx:for="{{relatedBooks}}" wx:for-index="index" wx:for-item="product">
+            <view class="_view data-v-405a390e image-view">
+              <image class="_image data-v-405a390e uni-product-image" src="{{product.cover}}"></image>
+            </view>
+            <view class="_view data-v-405a390e uni-product-title">{{product.title}}</view>
+            <view class="_view data-v-405a390e uni-product-price">
+              <text class="_text data-v-405a390e uni-product-price-original">{{product.author}}</text>
+              <text class="_text data-v-405a390e uni-product-tip">{{product.majorCate}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view hidden="{{!(current === 2)}}" class="_view data-v-405a390e">
+        <view class="_view data-v-405a390e uni-comment">
+          <view class="_view data-v-405a390e uni-comment-list" wx:key="index" key="{{index}}" wx:for="{{comments}}" wx:for-index="index" wx:for-item="item">
+            <view class="_view data-v-405a390e uni-comment-face">
+              <image src="http://img1.imgtn.bdimg.com/it/u=3006625703,782606588&fm=26&gp=0.jpg" mode="widthFix" class="_image data-v-405a390e"></image>
+            </view>
+            <view class="_view data-v-405a390e uni-comment-body">
+              <view class="_view data-v-405a390e uni-comment-top">
+                <text class="_text data-v-405a390e">{{item.author.nickname}}</text>
+              </view>
+              <view class="_view data-v-405a390e uni-comment-content">{{item.title}}</view>
+              <view class="_view data-v-405a390e uni-comment-content">{{item.content}}</view>
+              <view class="_view data-v-405a390e uni-comment-date">
+                <text class="_text data-v-405a390e">{{item.updated}}</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view hidden="{{!(current === 3)}}" class="_view data-v-405a390e">
+        <view class="_view data-v-405a390e uni-product-list">
+          <view class="_view data-v-405a390e uni-product" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'hWE-3-'+index}}" data-comkey="{{$k}}" wx:for="{{otherbookList}}" wx:for-index="index" wx:for-item="product">
+            <view class="_view data-v-405a390e image-view">
+              <image class="_image data-v-405a390e uni-product-image" src="{{product.cover}}"></image>
+            </view>
+            <view class="_view data-v-405a390e uni-product-title">{{product.title}}</view>
+            <view class="_view data-v-405a390e uni-product-price">
+              <text class="_text data-v-405a390e uni-product-price-original">{{product.author}}</text>
+              <text class="_text data-v-405a390e uni-product-tip">{{product.majorCate}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

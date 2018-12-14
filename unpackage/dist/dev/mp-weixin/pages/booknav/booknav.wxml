@@ -1,0 +1,1 @@
+<import src="/pages/booknav/booknav.vue.wxml" /><template is="7bb9fdef" data="{{ ...$root['0'], $root }}"/>

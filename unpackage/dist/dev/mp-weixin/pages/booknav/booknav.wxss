@@ -1,0 +1,40 @@
+@import "../../common/vendor.wxss";
+
+.daohang {
+  color: #222;
+}
+.daohang text {
+  color: #666;
+  margin-right: 20rpx;
+}
+.daohang .slct {
+  color: #222;
+}
+.subCt {
+  margin: 10rpx 0;
+  padding: 10rpx 0;
+  border-top: 2rpx dashed #CCCCCC;
+  border-bottom: 2rpx dashed #CCCCCC;
+}
+.navView {
+  font-size: 24rpx;
+  padding: 6rpx 10rpx;
+  border: 2rpx solid #999;
+  margin: 10rpx;
+  border-radius: 8rpx;
+  display: inline-block;
+}
+.showNav {
+  display: inline-block;
+  font-size: 24rpx;
+  padding: 6rpx 10rpx;
+  margin: 10rpx;
+  border-radius: 8rpx;
+  color: #FFD306;
+  border: 2rpx solid #FFD306;
+}
+.bookWai {
+  height: 100vh;
+  width: 100%;
+  margin-top: 20rpx;
+}

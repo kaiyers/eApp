@@ -1,0 +1,11 @@
+@import "../../common/vendor.wxss";
+
+.uni-media-list-logo {
+  width: 100rpx;
+  height: 80rpx;
+}
+.inp {
+  border: 2rpx solid #007AFF;
+  width: 730rpx;
+  margin: 20rpx auto;
+}

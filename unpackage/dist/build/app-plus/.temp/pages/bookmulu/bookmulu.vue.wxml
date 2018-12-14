@@ -1,0 +1,11 @@
+<template name="7c8b7073">
+  <view class="_view data-v-50dbbfee">
+    <view class="_view data-v-50dbbfee uni-list">
+      <view class="_view data-v-50dbbfee uni-list-cell" wx:key="index" key="{{index}}" wx:for="{{bookData}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-50dbbfee uni-list-cell-navigate" bindtap="handleProxy" data-idx="{{index}}" data-eventid="{{'wo2-0-'+index}}" data-comkey="{{$k}}"> {{item.title}}
+          <text class="_text data-v-50dbbfee {{item.isVip ? 'vip' : 'novip'}}">VIP</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

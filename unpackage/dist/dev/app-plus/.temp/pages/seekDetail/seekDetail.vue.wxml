@@ -1,0 +1,30 @@
+<import src="/components/uni-load-more.vue.wxml" />
+<template name="8fe1cdda">
+  <view class="_view data-v-b2a0e864">
+    <view class="_view data-v-b2a0e864 {{isXuan ? 'header_k' : 'header'}}">
+      <view class="_view data-v-b2a0e864 input-view">
+        <uni-icon type="search" size="22" color="#666666" class="_uni-icon data-v-b2a0e864"></uni-icon>
+        <input confirm-type="search" bindconfirm="handleProxy" class="_input data-v-b2a0e864 input" value="{{kw}}" type="text" placeholder="输入搜索关键词" data-eventid="{{'OrJ-0'}}" data-comkey="{{$k}}" />
+      </view>
+      <view bindtap="handleProxy" data-eventid="{{'ONc-2'}}" data-comkey="{{$k}}" class="_view data-v-b2a0e864">
+        <uni-icon type="mic-filled" size="22" color="#666666" bindtap="handleProxy" data-eventid="{{'9jI-1'}}" data-comkey="{{$k}}" class="_uni-icon data-v-b2a0e864"></uni-icon>
+      </view>
+    </view>
+    <view class="_view data-v-b2a0e864 uni-padding-wrap" style="margin-top:10rpx;">
+      <view class="_view data-v-b2a0e864 uni-list">
+        <view class="_view data-v-b2a0e864 uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" wx:for="{{bookList}}" wx:for-index="index" wx:for-item="item">
+          <view class="_view data-v-b2a0e864 uni-media-list" bindtap="handleProxy" data-id="{{item._id}}" data-eventid="{{'hX5-3-'+index}}" data-comkey="{{$k}}">
+            <image class="_image data-v-b2a0e864 uni-media-list-logo" src="{{item.cover}}" mode="widthFix"></image>
+            <view class="_view data-v-b2a0e864 uni-media-list-body">
+              <view class="_view data-v-b2a0e864 uni-media-list-text-top">{{item.title}}</view>
+              <view class="_view data-v-b2a0e864 uni-media-list-text-bottom uni-ellipsis">{{item.author}}</view>
+              <view class="_view data-v-b2a0e864 uni-media-list-text-bottom uni-ellipsis">{{item.lastChapter}}</view>
+              <view class="_view data-v-b2a0e864 uni-media-list-text-bottom duoeli">{{item.shortIntro}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <template data="{{...$root['0'], ...$root[$kk+'kH6-2'],$root}}" is="4a2ce19a"></template>
+  </view>
+</template>

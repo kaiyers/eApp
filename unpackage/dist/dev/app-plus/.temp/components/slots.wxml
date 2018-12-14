@@ -1,0 +1,668 @@
+<import src="/components/uni-load-more.vue.wxml" />
+<import src="/components/uni-segmented-control.vue.wxml" />
+<import src="/components/uni-tag.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/uni-drawer.vue.wxml" />
+<import src="/components/uni-tag.vue.wxml" />
+<import src="/components/uni-drawer.vue.wxml" />
+<import src="/components/uni-tag.vue.wxml" />
+<import src="/components/uni-number-box.vue.wxml" />
+<import src="/components/uni-drawer.vue.wxml" />
+<import src="/components/uni-tag.vue.wxml" />
+<template name="data-v-0d4c4dd8-default-82u-4">
+  <navigator url="../ziding/ziding" class="_navigator data-v-0d4c4dd8">一统江湖，千秋万代</navigator>
+  <view style="padding:30rpx;" class="_view data-v-0d4c4dd8">
+    <view class="_view data-v-0d4c4dd8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-idx="{{index}}" data-eventid="{{'VR8-5-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'M3g-3-'+index],$root}}" is="76b5a250"></template>
+    </view>
+    <view class="_view data-v-0d4c4dd8 uni-common-mt">
+      <button class="_button data-v-0d4c4dd8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'LYV-6'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-44U-3">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'yGQ-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'R7f-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'tV3-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Eit-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'yGS-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'uGz-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Idj-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 60rpx;">
+    <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'xQS-6'}}" data-comkey="{{$k}}">关闭</button>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'2ma-7'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+</template>
+<template name="data-v-73374a64-default-tI0-0">
+  <view style="padding:30rpx;" class="_view data-v-73374a64">
+    <view class="_view data-v-73374a64 daohang">
+      <text data-idx="{{index}}" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'063-2-'+index}}" data-comkey="{{$k}}" wx:for="{{typeList}}" wx:for-index="index" wx:for-item="item" class="_text data-v-73374a64 {{item.sl ? 'slct' : ''}}">{{item.name}}</text>
+    </view>
+    <view class="_view data-v-73374a64 subCt">
+      <view wx:if="{{navList}}" class="_view data-v-73374a64">
+        <view data-cont="{{item}}" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'Tiq-3-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item" class="_view data-v-73374a64 {{item == sleNav ? 'showNav' : 'navView'}}">
+        {{item}} </view>
+      </view>
+    </view>
+    <view class="_view data-v-73374a64 uni-common-mt">
+      <button class="_button data-v-73374a64 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'EHi-4'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-A4c-3">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'5OM-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'6o7-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'eKG-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'3A0-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'xle-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'BrM-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Jvz-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 60rpx;">
+    <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'wKN-6'}}" data-comkey="{{$k}}">关闭</button>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'QlU-7'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8"></view>
+</template>
+<template name="data-v-faf318e8-default-ja3-7">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'mxN-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'58F-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'ciM-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'MjV-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'Qs8-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'WTY-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'0tH-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 60rpx;">
+    <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'9AL-6'}}" data-comkey="{{$k}}">关闭</button>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'mPb-7'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8">
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">语速</label>
+      <template bindchange="handleProxy" data-eventid="{{'269-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Ibg-3'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音调</label>
+      <template bindchange="handleProxy" data-eventid="{{'TIX-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'FPu-4'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音量</label>
+      <template bindchange="handleProxy" data-eventid="{{'Iqv-10'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'UYL-5'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel">人物选择</view>
+    <view class="_view data-v-faf318e8 quyu">
+      <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'A5h-11-'+index}}" data-comkey="{{$k}}" wx:for="{{renList}}" wx:for-index="index" wx:for-item="item">
+        <template inverted="true" data="{{...$root['0'], ...$root[$kk+'EWg-6-'+index],$root}}" is="76b5a250"></template>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-Znh-7">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'Yk7-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'2tA-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'4WY-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'qAN-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'n0I-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'C12-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'42n-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 60rpx;">
+    <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'q2i-6'}}" data-comkey="{{$k}}">关闭</button>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" type="checkbox" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'0bG-7'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8">
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">语速</label>
+      <template bindchange="handleProxy" data-eventid="{{'tGC-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'iDJ-3'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音调</label>
+      <template bindchange="handleProxy" data-eventid="{{'UEE-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'HpO-4'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音量</label>
+      <template bindchange="handleProxy" data-eventid="{{'X3q-10'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'NXd-5'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel">人物选择</view>
+    <view class="_view data-v-faf318e8 quyu">
+      <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'1Fh-11-'+index}}" data-comkey="{{$k}}" wx:for="{{renList}}" wx:for-index="index" wx:for-item="item">
+        <template inverted="true" data="{{...$root['0'], ...$root[$kk+'xkA-6-'+index],$root}}" is="76b5a250"></template>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-V0o-7">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'GHK-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'rdS-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'kRr-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Qjc-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'v56-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'IFw-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'8WZ-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" type="checkbox" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'1bn-6'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8">
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">语速</label>
+      <template bindchange="handleProxy" data-eventid="{{'CKF-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'CKC-3'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音调</label>
+      <template bindchange="handleProxy" data-eventid="{{'Tve-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'nwy-4'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音量</label>
+      <template bindchange="handleProxy" data-eventid="{{'4eX-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Yuw-5'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel">人物选择</view>
+    <view class="_view data-v-faf318e8 quyu">
+      <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'HMT-10-'+index}}" data-comkey="{{$k}}" wx:for="{{renList}}" wx:for-index="index" wx:for-item="item">
+        <template inverted="true" data="{{...$root['0'], ...$root[$kk+'mMb-6-'+index],$root}}" is="76b5a250"></template>
+      </view>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 10rpx;">
+      <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'IVb-11'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-2mb-7">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'buu-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'nvy-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'Fje-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'TBb-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'wSh-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'Ea2-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'D92-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'BJ3-6'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8">
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">语速</label>
+      <template bindchange="handleProxy" data-eventid="{{'VAR-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'zb6-3'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音调</label>
+      <template bindchange="handleProxy" data-eventid="{{'K6f-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'g1v-4'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音量</label>
+      <template bindchange="handleProxy" data-eventid="{{'mp3-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'PHd-5'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel">人物选择</view>
+    <view class="_view data-v-faf318e8 quyu">
+      <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'ukS-10-'+index}}" data-comkey="{{$k}}" wx:for="{{renList}}" wx:for-index="index" wx:for-item="item">
+        <template inverted="true" data="{{...$root['0'], ...$root[$kk+'M58-6-'+index],$root}}" is="76b5a250"></template>
+      </view>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 10rpx;">
+      <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'eXQ-11'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-txT-7">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'iiV-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'COt-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'5Jh-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'ZOB-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'GOv-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'kdW-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'LLZ-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'4DS-6'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8">
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">语速</label>
+      <template bindchange="handleProxy" data-eventid="{{'QyX-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'zD8-3'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音调</label>
+      <template bindchange="handleProxy" data-eventid="{{'Pe8-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'3Lt-4'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音量</label>
+      <template bindchange="handleProxy" data-eventid="{{'yHd-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'N3j-5'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel">人物选择</view>
+    <view class="_view data-v-faf318e8 quyu">
+      <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'dST-10-'+index}}" data-comkey="{{$k}}" wx:for="{{renList}}" wx:for-index="index" wx:for-item="item">
+        <template inverted="true" data="{{...$root['0'], ...$root[$kk+'RvQ-6-'+index],$root}}" is="76b5a250"></template>
+      </view>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 10rpx;">
+      <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'W0c-11'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-ZBi-7">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'9Nf-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'uv6-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'Hur-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'DhI-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'C9j-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'3zi-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'nwy-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'pl0-6'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8">
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">语速</label>
+      <template bindchange="handleProxy" data-eventid="{{'zZC-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'tvS-3'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音调</label>
+      <template bindchange="handleProxy" data-eventid="{{'sH0-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Izk-4'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音量</label>
+      <template bindchange="handleProxy" data-eventid="{{'hBV-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'bvt-5'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel">人物选择</view>
+    <view class="_view data-v-faf318e8 quyu">
+      <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'6sD-10-'+index}}" data-comkey="{{$k}}" wx:for="{{renList}}" wx:for-index="index" wx:for-item="item">
+        <template inverted="true" data="{{...$root['0'], ...$root[$kk+'gzO-6-'+index],$root}}" is="76b5a250"></template>
+      </view>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 10rpx;">
+      <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'ngH-11'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-zh0-7">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'6v4-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'tul-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'lBc-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'FzF-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'TvA-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'noX-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'DyB-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'pJS-6'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8">
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">语速</label>
+      <template bindchange="handleProxy" data-eventid="{{'RGp-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'79g-3'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音调</label>
+      <template bindchange="handleProxy" data-eventid="{{'mOi-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'nlE-4'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音量</label>
+      <template bindchange="handleProxy" data-eventid="{{'kMa-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'nmY-5'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel">人物选择</view>
+    <view class="_view data-v-faf318e8 quyu">
+      <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'7ty-10-'+index}}" data-comkey="{{$k}}" wx:for="{{renList}}" wx:for-index="index" wx:for-item="item">
+        <template inverted="true" data="{{...$root['0'], ...$root[$kk+'Ffn-6-'+index],$root}}" is="76b5a250"></template>
+      </view>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 10rpx;">
+      <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'Kdr-11'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-0CQ-7">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'iec-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'N35-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'alI-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'tk5-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'QlC-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'Iwq-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'n0F-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'QRs-6'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8">
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">语速</label>
+      <template bindchange="handleProxy" data-eventid="{{'N1F-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Qpl-3'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音调</label>
+      <template bindchange="handleProxy" data-eventid="{{'6S0-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'2Fh-4'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音量</label>
+      <template bindchange="handleProxy" data-eventid="{{'Oie-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'k2B-5'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel">人物选择</view>
+    <view class="_view data-v-faf318e8 quyu">
+      <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'MEJ-10-'+index}}" data-comkey="{{$k}}" wx:for="{{renList}}" wx:for-index="index" wx:for-item="item">
+        <template inverted="true" data="{{...$root['0'], ...$root[$kk+'CvN-6-'+index],$root}}" is="76b5a250"></template>
+      </view>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 10rpx;">
+      <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'b3Q-11'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-v8M-7">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'hhm-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'Wx3-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'FQo-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'MsW-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'zlh-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'KLg-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'0vT-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'VjN-6'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8">
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">语速</label>
+      <template bindchange="handleProxy" data-eventid="{{'R2g-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'I6k-3'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音调</label>
+      <template bindchange="handleProxy" data-eventid="{{'fLp-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'1mh-4'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音量</label>
+      <template bindchange="handleProxy" data-eventid="{{'T15-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'LEj-5'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel">人物选择</view>
+    <view class="_view data-v-faf318e8 quyu">
+      <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'XpL-10-'+index}}" data-comkey="{{$k}}" wx:for="{{renList}}" wx:for-index="index" wx:for-item="item">
+        <template inverted="true" data="{{...$root['0'], ...$root[$kk+'ELq-6-'+index],$root}}" is="76b5a250"></template>
+      </view>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 10rpx;">
+      <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'kNw-11'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-p84-7">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'jlr-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'WIj-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'6Dq-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'EUM-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'0bi-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'h0X-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'CTa-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'nO5-6'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8">
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">语速</label>
+      <template bindchange="handleProxy" data-eventid="{{'CnO-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'1hd-3'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音调</label>
+      <template bindchange="handleProxy" data-eventid="{{'5rV-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'erD-4'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音量</label>
+      <template bindchange="handleProxy" data-eventid="{{'wMe-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'ibS-5'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel">人物选择</view>
+    <view class="_view data-v-faf318e8 quyu">
+      <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'CQA-10-'+index}}" data-comkey="{{$k}}" wx:for="{{renList}}" wx:for-index="index" wx:for-item="item">
+        <template inverted="true" data="{{...$root['0'], ...$root[$kk+'17Y-6-'+index],$root}}" is="76b5a250"></template>
+      </view>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 10rpx;">
+      <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'gS5-11'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-ivu-7">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'b2E-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'S9K-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'Lk4-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Ixw-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'xqe-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'CR0-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'4fj-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'QTW-6'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8">
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">语速</label>
+      <template bindchange="handleProxy" data-eventid="{{'1l2-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'l1C-3'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音调</label>
+      <template bindchange="handleProxy" data-eventid="{{'igl-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'9Pa-4'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音量</label>
+      <template bindchange="handleProxy" data-eventid="{{'Yn7-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'DPL-5'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel">人物选择</view>
+    <view class="_view data-v-faf318e8 quyu">
+      <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'Kzm-10-'+index}}" data-comkey="{{$k}}" wx:for="{{renList}}" wx:for-index="index" wx:for-item="item">
+        <template inverted="true" data="{{...$root['0'], ...$root[$kk+'565-6-'+index],$root}}" is="76b5a250"></template>
+      </view>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 10rpx;">
+      <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'gZH-11'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-VgS-7">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'u7S-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'7Qd-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'hF4-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'z7j-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'zWR-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'MGH-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'aKQ-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'X4W-6'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8">
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">语速</label>
+      <template bindchange="handleProxy" data-eventid="{{'9au-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'28u-3'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音调</label>
+      <template bindchange="handleProxy" data-eventid="{{'1C0-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'IyS-4'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音量</label>
+      <template bindchange="handleProxy" data-eventid="{{'sHQ-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'U8s-5'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel">人物选择</view>
+    <view class="_view data-v-faf318e8 quyu">
+      <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'zGa-10-'+index}}" data-comkey="{{$k}}" wx:for="{{renList}}" wx:for-index="index" wx:for-item="item">
+        <template inverted="true" data="{{...$root['0'], ...$root[$kk+'OaY-6-'+index],$root}}" is="76b5a250"></template>
+      </view>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 10rpx;">
+      <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'L0f-11'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-0d4c4dd8-default-5Da-4">
+  <navigator url="../ziding/ziding" class="_navigator data-v-0d4c4dd8">一统江湖，千秋万代</navigator>
+  <view style="padding:30rpx;" class="_view data-v-0d4c4dd8">
+    <view class="_view data-v-0d4c4dd8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-idx="{{index}}" data-eventid="{{'KcI-5-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'1AU-3-'+index],$root}}" is="76b5a250"></template>
+    </view>
+    <view class="_view data-v-0d4c4dd8 uni-common-mt">
+      <button class="_button data-v-0d4c4dd8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'C0W-6'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>

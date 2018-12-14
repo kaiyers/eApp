@@ -1,0 +1,85 @@
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/uni-drawer.vue.wxml" />
+<import src="/components/uni-tag.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<import src="/components/uni-tag.vue.wxml" />
+<import src="/components/uni-drawer.vue.wxml" />
+<import src="/components/uni-tag.vue.wxml" />
+<import src="/components/uni-number-box.vue.wxml" />
+<import src="/components/uni-drawer.vue.wxml" />
+<import src="/components/uni-segmented-control.vue.wxml" />
+<import src="/components/uni-tag.vue.wxml" />
+<template name="data-v-0d4c4dd8-default-cRB-4">
+  <navigator url="../ziding/ziding" class="_navigator data-v-0d4c4dd8">一统江湖，千秋万代</navigator>
+  <view style="padding:30rpx;" class="_view data-v-0d4c4dd8">
+    <view class="_view data-v-0d4c4dd8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-idx="{{index}}" data-eventid="{{'LIC-5-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'9sM-3-'+index],$root}}" is="76b5a250"></template>
+    </view>
+    <view class="_view data-v-0d4c4dd8 uni-common-mt">
+      <button class="_button data-v-0d4c4dd8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'f2q-6'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-faf318e8-default-seG-7">
+  <view class="_view data-v-faf318e8 dwtitel">模式选择</view>
+  <view class="_view data-v-faf318e8 quyu">
+    <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'VSC-2-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <template inverted="true" data="{{...$root['0'], ...$root[$kk+'7Dn-0-'+index],$root}}" is="76b5a250"></template>
+    </view>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">字体大小</label>
+    <template bindchange="handleProxy" data-eventid="{{'M3k-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'I15-1'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">自动阅读</label>
+    <switch name="switch" checked="{{checked}}" bindchange="handleProxy" data-eventid="{{'CHG-4'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">阅读速度</label>
+    <template bindchange="handleProxy" data-eventid="{{'x7l-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'clQ-2'],$root}}" is="4680d00e"></template>
+  </view>
+  <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+    <label class="_label data-v-faf318e8">语音播放</label>
+    <switch name="switch" checked="{{checked1}}" bindchange="handleProxy" data-eventid="{{'Een-6'}}" data-comkey="{{$k}}" class="_switch data-v-faf318e8" />
+  </view>
+  <view class="_view data-v-faf318e8">
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">语速</label>
+      <template bindchange="handleProxy" data-eventid="{{'z5U-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'p3Y-3'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音调</label>
+      <template bindchange="handleProxy" data-eventid="{{'kvH-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Bjk-4'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 uni-input-row dwtitel">
+      <label class="_label data-v-faf318e8">音量</label>
+      <template bindchange="handleProxy" data-eventid="{{'7Mu-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'AsX-5'],$root}}" is="4680d00e"></template>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel">人物选择</view>
+    <view class="_view data-v-faf318e8 quyu">
+      <view class="_view data-v-faf318e8 tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'8FA-10-'+index}}" data-comkey="{{$k}}" wx:for="{{renList}}" wx:for-index="index" wx:for-item="item">
+        <template inverted="true" data="{{...$root['0'], ...$root[$kk+'v5o-6-'+index],$root}}" is="76b5a250"></template>
+      </view>
+    </view>
+    <view class="_view data-v-faf318e8 dwtitel" style="margin-top: 10rpx;">
+      <button class="_button data-v-faf318e8 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'UCd-11'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>
+<template name="data-v-73374a64-default-dkT-0">
+  <view style="padding:30rpx;" class="_view data-v-73374a64">
+    <view class="_view data-v-73374a64 daohang">
+      <text data-idx="{{index}}" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'FLu-2-'+index}}" data-comkey="{{$k}}" wx:for="{{typeList}}" wx:for-index="index" wx:for-item="item" class="_text data-v-73374a64 {{item.sl ? 'slct' : ''}}">{{item.name}}</text>
+    </view>
+    <view class="_view data-v-73374a64 subCt">
+      <view wx:if="{{navList}}" class="_view data-v-73374a64">
+        <view data-cont="{{item}}" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'Gy2-3-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item" class="_view data-v-73374a64 {{item == sleNav ? 'showNav' : 'navView'}}">
+        {{item}} </view>
+      </view>
+    </view>
+    <view class="_view data-v-73374a64 uni-common-mt">
+      <button class="_button data-v-73374a64 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'Okv-4'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+  </view>
+</template>

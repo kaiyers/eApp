@@ -1,0 +1,2 @@
+@import "../../common/vendor.wxss";
+.uni-product-title{text-align:center;font-size:30rpx;font-weight:700;color:#007aff}.nullImg{position:absolute;top:0;left:0;width:100%;height:100%;z-index:10}

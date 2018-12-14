@@ -1,0 +1,8 @@
+@import "../../common/vendor.wxss";
+
+.uni-media-list-body {
+  height: auto;
+}
+.uni-media-list-logo {
+  width: 200rpx;
+}

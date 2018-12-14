@@ -1,0 +1,23 @@
+<template name="c8d7a7da">
+  <view class="_view data-v-4de075e4">
+    <view class="_view data-v-4de075e4 readArea" wx:if="{{bookname}}" bindtap="handleProxy" data-eventid="{{'iio-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-4de075e4 biaoti">{{bookname}}</view>
+      <view class="_view data-v-4de075e4 zhangshu">{{nowCapName}}</view>
+    </view>
+    <view class="_view data-v-4de075e4 uni-product-list" wx:if="{{datashow}}">
+      <view class="_view data-v-4de075e4 uni-product" wx:key="index" key="{{index}}" bindtap="handleProxy" bindlongtap="handleProxy" data-eventid="{{'EK5-1-'+index}}" data-comkey="{{$k}}" wx:for="{{userData}}" wx:for-index="index" wx:for-item="product">
+        <view class="_view data-v-4de075e4 image-view">
+          <image class="_image data-v-4de075e4 uni-product-image" src="{{product.url}}"></image>
+        </view>
+        <view class="_view data-v-4de075e4 uni-product-title">{{product.title}}</view>
+        <view class="_view data-v-4de075e4 uni-product-price">
+          <text class="_text data-v-4de075e4 uni-product-price-original">{{product.name}}</text>
+          <text class="_text data-v-4de075e4 uni-product-tip">第 {{product.zhang}} 章</text>
+        </view>
+      </view>
+    </view>
+    <view wx:else class="_view data-v-4de075e4">
+      <image src="http://img.zcool.cn/community/01956b5a31ebaaa80120ba38fb641a.gif" class="_image data-v-4de075e4 nullImg"></image>
+    </view>
+  </view>
+</template>
