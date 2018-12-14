@@ -508,44 +508,22 @@
 
 <style>
 	.textarea1{
-		padding: 0 16upx;
 		background: #ffffff;
 		color: #000000;
 	}
 	.textarea2{
-		padding: 0 16upx;
 		background: #111111;
 		color: #ffffff;
 	}
 	.textarea3{
-		padding: 0 16upx;
 		background: url(http://img4.imgtn.bdimg.com/it/u=1441836535,74210295&fm=26&gp=0.jpg);
 		background-size: 100% 100%;
 		color: #ffffff;
 	}
 	.textarea4{
-		padding: 0 16upx;
 		background: url(http://img3.imgtn.bdimg.com/it/u=191202121,458334980&fm=26&gp=0.jpg);
 		background-size: 100% 100%;
 		color: #333;
-	}
-	.textarea0{
-		width:720upx
-	}
-	.mulu{
-		height: 60upx;
-		line-height: 60upx;
-		font-size: 32upx;
-		text-align: center;
-		width: 100%;
-		position: fixed;
-		top: 0;
-		right: 0;
-		background: #666;
-		color: #fff;
-	}
-	.muludi{
-		height: 60upx;
 	}
 	.fanye{
 		margin:20upx 0;
@@ -553,17 +531,6 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-	}
-	.nowPage{
-		color: #666666;
-	}
-	.vip{
-		color: #ff0000;
-		font-weight: bold;
-	}
-	.novip{
-		color: #eee;
-		font-weight: bold;
 	}
 	.dwtitel{
 		height: 60upx;
