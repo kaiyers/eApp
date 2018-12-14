@@ -51,6 +51,7 @@
 				uni.showLoading({
 				  title: '加载中...'
 				})
+				this.categoryActive = 0;
 				var that = this;
 				uni.request({
 				  url: 'https://novel.juhe.im/categories',

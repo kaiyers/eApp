@@ -3,7 +3,7 @@
 <template name="6c09e993">
   <view class="_view data-v-405a390e">
     <view class="_view data-v-405a390e uni-padding-wrap uni-common-mt" style="position:fixed;background:#fff;height:70rpx;padding-top:30rpx;margin-top: 0;z-index: 100;">
-      <template bindclickItem="handleProxy" data-eventid="{{'tTR-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'pI5-0'],$root}}" is="69251260"></template>
+      <template bindclickItem="handleProxy" data-eventid="{{'28F-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'V5Y-0'],$root}}" is="69251260"></template>
     </view>
     <view class="_view data-v-405a390e content">
       <view hidden="{{!(current === 0)}}" class="_view data-v-405a390e">
@@ -11,22 +11,22 @@
         <view class="_view data-v-405a390e title">{{bookdetail.title}}</view>
         <view class="_view data-v-405a390e">
           <view class="_view data-v-405a390e tag-view" wx:key="key" key="{{key}}" wx:for="{{bookdetail.tags}}" wx:for-index="index" wx:for-item="item">
-            <template type="success" size="small" data="{{...$root['0'], ...$root[$kk+'dfb-1-'+index],$root}}" is="76b5a250"></template>
+            <template type="success" size="small" data="{{...$root['0'], ...$root[$kk+'qgH-1-'+index],$root}}" is="76b5a250"></template>
           </view>
         </view>
         <navigator url="../bookauthor/bookauthor?author=bookdetail.author" class="_navigator data-v-405a390e at">{{bookdetail.author}}</navigator>
         <view class="_view data-v-405a390e at">{{bookdetail.lastChapter}}</view>
         <view class="_view data-v-405a390e at">更新于 {{bookdetail.updated}}</view>
         <view class="_view data-v-405a390e">
-          <view class="_view data-v-405a390e tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-idx="{{index}}" data-eventid="{{'wMN-1-'+index}}" data-comkey="{{$k}}" wx:for="{{sourceList}}" wx:for-index="index" wx:for-item="item">
-            <template inverted="true" data="{{...$root['0'], ...$root[$kk+'yXA-2-'+index],$root}}" is="76b5a250"></template>
+          <view class="_view data-v-405a390e tag-view" wx:key="key" key="{{key}}" bindtap="handleProxy" data-idx="{{index}}" data-eventid="{{'EK1-1-'+index}}" data-comkey="{{$k}}" wx:for="{{sourceList}}" wx:for-index="index" wx:for-item="item">
+            <template inverted="true" data="{{...$root['0'], ...$root[$kk+'ZSI-2-'+index],$root}}" is="76b5a250"></template>
           </view>
         </view>
         <view class="_view data-v-405a390e at lt">{{bookdetail.longIntro}}</view>
       </view>
       <view hidden="{{!(current === 1)}}" class="_view data-v-405a390e">
         <view class="_view data-v-405a390e uni-product-list">
-          <view class="_view data-v-405a390e uni-product" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'odG-2-'+index}}" data-comkey="{{$k}}" wx:for="{{relatedBooks}}" wx:for-index="index" wx:for-item="product">
+          <view class="_view data-v-405a390e uni-product" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'HE4-2-'+index}}" data-comkey="{{$k}}" wx:for="{{relatedBooks}}" wx:for-index="index" wx:for-item="product">
             <view class="_view data-v-405a390e image-view">
               <image class="_image data-v-405a390e uni-product-image" src="{{product.cover}}"></image>
             </view>
@@ -59,7 +59,7 @@
       </view>
       <view hidden="{{!(current === 3)}}" class="_view data-v-405a390e">
         <view class="_view data-v-405a390e uni-product-list">
-          <view class="_view data-v-405a390e uni-product" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'H5M-3-'+index}}" data-comkey="{{$k}}" wx:for="{{otherbookList}}" wx:for-index="index" wx:for-item="product">
+          <view class="_view data-v-405a390e uni-product" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'t5G-3-'+index}}" data-comkey="{{$k}}" wx:for="{{otherbookList}}" wx:for-index="index" wx:for-item="product">
             <view class="_view data-v-405a390e image-view">
               <image class="_image data-v-405a390e uni-product-image" src="{{product.cover}}"></image>
             </view>

@@ -1,6 +1,6 @@
 <template name="69251260">
   <view class="_view data-v-77406232 segmented-control {{styleType}}" style=" {{wrapStyle}}">
-    <view class="_view data-v-77406232 segmented-control-item {{styleType}}" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'UoY-0-'+index}}" data-comkey="{{$k}}" wx:for="{{values}}" wx:for-index="index" wx:for-item="item" style=" {{index === currentIndex ? activeStyle : itemStyle}}">
+    <view class="_view data-v-77406232 segmented-control-item {{styleType}}" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'KO7-0-'+index}}" data-comkey="{{$k}}" wx:for="{{values}}" wx:for-index="index" wx:for-item="item" style=" {{index === currentIndex ? activeStyle : itemStyle}}">
     {{item}} </view>
   </view>
 </template>

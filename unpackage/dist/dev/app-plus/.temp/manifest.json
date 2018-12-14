@@ -34,7 +34,7 @@
             },
             "icons" : {
                 "ios" : {
-                    "appstore" : "",
+                    "appstore" : "C:/Users/Administrator/Desktop/011.png",
                     "ipad" : {
                         "app" : "unpackage/res/icons/76x76.png",
                         "app@2x" : "unpackage/res/icons/152x152.png",
@@ -68,9 +68,9 @@
             },
             "splashscreen" : {
                 "android" : {
-                    "hdpi" : "D:/全民答题历史版本/touxian.png",
-                    "xhdpi" : "D:/全民答题历史版本/touxian.png",
-                    "xxhdpi" : "D:/全民答题历史版本/touxian.png"
+                    "hdpi" : "C:/Users/Administrator/Desktop/1.png",
+                    "xhdpi" : "C:/Users/Administrator/Desktop/1.png",
+                    "xxhdpi" : "C:/Users/Administrator/Desktop/1.png"
                 }
             }
         },

@@ -3,18 +3,18 @@
 <import src="/components/uni-tag.vue.wxml" />
 <import src="/components/uni-number-box.vue.wxml" />
 <template name="32ffbd97">
-  <scroll-view scroll-y scroll-top="{{stop}}" bindscrolltolower="handleProxy" scroll-with-animation="true" data-eventid="{{'E4H-14'}}" data-comkey="{{$k}}" class="_scroll-view data-v-faf318e8 {{setStyle.class}}" style=" {{('height:' + (pheight + 'px') + ';')}}">
-    <view class="_view data-v-faf318e8 icon" bindtap="handleProxy" data-eventid="{{'Dzo-0'}}" data-comkey="{{$k}}">
-      <template type="bars" color="#666666" size="22" data="{{...$root['0'], ...$root[$kk+'3Tp-0'],$root}}" is="57a7b4aa"></template>
+  <scroll-view scroll-y scroll-top="{{stop}}" bindscrolltolower="handleProxy" scroll-with-animation="true" data-eventid="{{'8vT-14'}}" data-comkey="{{$k}}" class="_scroll-view data-v-faf318e8 {{setStyle.class}}" style=" {{('height:' + (pheight + 'px') + ';')}}">
+    <view class="_view data-v-faf318e8 icon" bindtap="handleProxy" data-eventid="{{'iTK-0'}}" data-comkey="{{$k}}">
+      <template type="bars" color="#666666" size="22" data="{{...$root['0'], ...$root[$kk+'xPt-0'],$root}}" is="57a7b4aa"></template>
     </view>
     <view class="_view data-v-faf318e8 textarea0" style=" {{('font-size:' + (numberValue + 'px') + ';')}}"> {{chapter}} </view>
     <view wx:if="{{imagesList.length}}" class="_view data-v-faf318e8">
       <image src="{{item}}" wx:key="index" key="{{index}}" mode="widthFix" style="width: 700rpx;" wx:for="{{imagesList}}" wx:for-index="index" wx:for-item="item" class="_image data-v-faf318e8"></image>
     </view>
     <view class="_view data-v-faf318e8 fanye">
-      <button type="primary" size="mini" loading="{{prevLoading}}" disabled="{{prevdisabled}}" bindtap="handleProxy" data-fanye="prev" data-eventid="{{'8W3-1'}}" data-comkey="{{$k}}" class="_button data-v-faf318e8"> 上一章 </button>
-      <button type="primary" size="mini" loading="{{nextLoading}}" disabled="{{nextdisabled}}" bindtap="handleProxy" data-fanye="next" data-eventid="{{'jtS-2'}}" data-comkey="{{$k}}" class="_button data-v-faf318e8"> 下一章 </button>
+      <button type="primary" size="mini" loading="{{prevLoading}}" disabled="{{prevdisabled}}" bindtap="handleProxy" data-fanye="prev" data-eventid="{{'0ww-1'}}" data-comkey="{{$k}}" class="_button data-v-faf318e8"> 上一章 </button>
+      <button type="primary" size="mini" loading="{{nextLoading}}" disabled="{{nextdisabled}}" bindtap="handleProxy" data-fanye="next" data-eventid="{{'rKY-2'}}" data-comkey="{{$k}}" class="_button data-v-faf318e8"> 下一章 </button>
     </view>
-    <template mode="right" bindclose="handleProxy" data-eventid="{{'OUr-13'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'3Ss-8'],$root, $slotdefault:'data-v-faf318e8-default-3Ss-8'}}" is="20d2f0ba"></template>
+    <template mode="right" bindclose="handleProxy" data-eventid="{{'BEQ-13'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'eEP-8'],$root, $slotdefault:'data-v-faf318e8-default-eEP-8'}}" is="20d2f0ba"></template>
   </scroll-view>
 </template>

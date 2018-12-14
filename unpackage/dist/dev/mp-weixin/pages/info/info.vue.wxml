@@ -2,7 +2,7 @@
   <view class="_view data-v-f5d55424 showAera">
     <view class="_view data-v-f5d55424 uni-list">
       <view class="_view data-v-f5d55424 uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" wx:for="{{bookList}}" wx:for-index="index" wx:for-item="item">
-        <view class="_view data-v-f5d55424 uni-media-list" bindtap="handleProxy" data-newsId="{{item.book._id}}" data-eventid="{{'3SJ-0-'+index}}" data-comkey="{{$k}}">
+        <view class="_view data-v-f5d55424 uni-media-list" bindtap="handleProxy" data-newsId="{{item.book._id}}" data-eventid="{{'cP6-0-'+index}}" data-comkey="{{$k}}">
           <image class="_image data-v-f5d55424 uni-media-list-logo" src="{{item.book.cover}}" mode="widthFix"></image>
           <view class="_view data-v-f5d55424 uni-media-list-body">
             <view class="_view data-v-f5d55424 uni-media-list-text-top">{{item.book.title}}</view>

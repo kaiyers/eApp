@@ -24,11 +24,12 @@
 				</view>
 			</view>
 		</view>
-		<uni-load-more :loadingType="loadingType" :contentText="contentText"></uni-load-more>
+		<uni-load-more :loadingType="loadingType" :contentText="contentText" v-if="bookList.length"></uni-load-more>
 	</view>
 </template>
 <script>
-	import uniLoadMore from '../../components/uni-load-more.vue'
+	import uniLoadMore from '../../components/uni-load-more.vue';
+	import uniIcon from '../../components/uni-icon.vue';
 	export default {
 		data() {
 			return {
@@ -46,11 +47,10 @@
 			}
 		},
 		components: {
-			uniLoadMore
+			uniLoadMore,uniIcon
 		},
-		onLoad(e) {
-			this.kw = e.keyword;
-			this.getStyleDeitai(this.kw,0)
+		onLoad() {
+		
 		},
 		// 监听页面滚动
 		onPageScroll(e){

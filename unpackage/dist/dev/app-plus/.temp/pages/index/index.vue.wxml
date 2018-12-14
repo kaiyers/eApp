@@ -3,21 +3,24 @@
 <import src="/components/uni-tag.vue.wxml" />
 <template name="1dd3ed42">
   <view class="_view data-v-0d4c4dd8">
-    <uni-nav-bar fixed="true" left-icon="back" bindclick-left="handleProxy" bindclick-right="handleProxy" left-text="返回" right-text="菜单" title="导航栏组件" data-eventid="{{'ZlV-0'}}" data-comkey="{{$k}}" class="_uni-nav-bar data-v-0d4c4dd8"></uni-nav-bar>
+    <uni-nav-bar fixed="true" left-icon="back" bindclick-left="handleProxy" bindclick-right="handleProxy" left-text="返回" right-text="菜单" title="导航栏组件" data-eventid="{{'mTT-0'}}" data-comkey="{{$k}}" class="_uni-nav-bar data-v-0d4c4dd8"></uni-nav-bar>
     <view class="_view data-v-0d4c4dd8 {{isXuan ? 'header_k' : 'header'}}">
       <view class="_view data-v-0d4c4dd8 input-view">
-        <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'98M-1'],$root}}" is="57a7b4aa"></template>
-        <input confirm-type="search" bindconfirm="handleProxy" class="_input data-v-0d4c4dd8 input" value="{{value}}" type="text" placeholder="输入搜索关键词" data-eventid="{{'3du-1'}}" data-comkey="{{$k}}" />
+        <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'bRo-1'],$root}}" is="57a7b4aa"></template>
+        <input confirm-type="search" bindtap="handleProxy" disabled="disabled" class="_input data-v-0d4c4dd8 input" value="{{value}}" type="text" placeholder="输入搜索关键词" data-eventid="{{'WVE-1'}}" data-comkey="{{$k}}" />
       </view>
-      <view bindtap="handleProxy" data-eventid="{{'WZb-3'}}" data-comkey="{{$k}}" class="_view data-v-0d4c4dd8">
-        <template type="mic-filled" size="22" color="#666666" bindtap="handleProxy" data-eventid="{{'r6H-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'4I2-2'],$root}}" is="57a7b4aa"></template>
+      <view bindtap="handleProxy" data-eventid="{{'yXN-3'}}" data-comkey="{{$k}}" class="_view data-v-0d4c4dd8">
+        <template type="mic-filled" size="22" color="#666666" bindtap="handleProxy" data-eventid="{{'Nuu-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Fg8-2'],$root}}" is="57a7b4aa"></template>
       </view>
     </view>
-    <navigator url="../ziding/ziding?dd=ikik" class="_navigator data-v-0d4c4dd8">一统江湖，千秋万代</navigator>
+    <view class="_view data-v-0d4c4dd8 readArea" wx:if="{{bookname}}" bindtap="handleProxy" data-eventid="{{'tln-4'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-0d4c4dd8 biaoti">{{bookname}}</view>
+      <view class="_view data-v-0d4c4dd8 zhangshu">{{nowCapName}}</view>
+    </view>
     <view class="_view data-v-0d4c4dd8 uni-padding-wrap" style="margin-top:10rpx;">
       <view class="_view data-v-0d4c4dd8 uni-list">
         <view class="_view data-v-0d4c4dd8 uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" wx:for="{{bookLists}}" wx:for-index="index" wx:for-item="item">
-          <view class="_view data-v-0d4c4dd8 uni-media-list" bindtap="handleProxy" data-id="{{item._id}}" data-eventid="{{'ykh-4-'+index}}" data-comkey="{{$k}}">
+          <view class="_view data-v-0d4c4dd8 uni-media-list" bindtap="handleProxy" data-id="{{item._id}}" data-eventid="{{'DDX-5-'+index}}" data-comkey="{{$k}}">
             <image class="_image data-v-0d4c4dd8 uni-media-list-logo" src="{{item.cover}}" mode="widthFix"></image>
             <view class="_view data-v-0d4c4dd8 uni-media-list-body">
               <view class="_view data-v-0d4c4dd8 uni-media-list-text-top">{{item.title}}</view>
@@ -29,6 +32,6 @@
         </view>
       </view>
     </view>
-    <template mode="right" bindclose="handleProxy" data-eventid="{{'Itl-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'5Da-4'],$root, $slotdefault:'data-v-0d4c4dd8-default-5Da-4'}}" is="20d2f0ba"></template>
+    <template mode="right" bindclose="handleProxy" data-eventid="{{'9Gt-8'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'syH-4'],$root, $slotdefault:'data-v-0d4c4dd8-default-syH-4'}}" is="20d2f0ba"></template>
   </view>
 </template>

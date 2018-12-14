@@ -2,14 +2,14 @@
 <import src="/components/uni-drawer.vue.wxml" />
 <template name="7bb9fdef">
   <view class="_view data-v-73374a64">
-    <view class="_view data-v-73374a64 icon" bindtap="handleProxy" data-eventid="{{'SBZ-0'}}" data-comkey="{{$k}}">
-      <template type="bars" color="#666666" size="22" data="{{...$root['0'], ...$root[$kk+'0ec-0'],$root}}" is="57a7b4aa"></template>
+    <view class="_view data-v-73374a64 icon" bindtap="handleProxy" data-eventid="{{'yEs-0'}}" data-comkey="{{$k}}">
+      <template type="bars" color="#666666" size="22" data="{{...$root['0'], ...$root[$kk+'blY-0'],$root}}" is="57a7b4aa"></template>
     </view>
-    <scroll-view scroll-y bindscrolltolower="handleProxy" class="_scroll-view data-v-73374a64 bookWai" data-eventid="{{'vkN-2'}}" data-comkey="{{$k}}">
+    <scroll-view scroll-y bindscrolltolower="handleProxy" class="_scroll-view data-v-73374a64 bookWai" data-eventid="{{'qN3-2'}}" data-comkey="{{$k}}">
       <view class="_view data-v-73374a64 uni-padding-wrap">
         <view class="_view data-v-73374a64 uni-list">
           <view class="_view data-v-73374a64 uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" wx:for="{{bookList}}" wx:for-index="index" wx:for-item="item">
-            <view class="_view data-v-73374a64 uni-media-list" bindtap="handleProxy" data-id="{{item._id}}" data-eventid="{{'1Yx-1-'+index}}" data-comkey="{{$k}}">
+            <view class="_view data-v-73374a64 uni-media-list" bindtap="handleProxy" data-id="{{item._id}}" data-eventid="{{'dnf-1-'+index}}" data-comkey="{{$k}}">
               <image class="_image data-v-73374a64 uni-media-list-logo" src="{{item.cover}}" mode="widthFix"></image>
               <view class="_view data-v-73374a64 uni-media-list-body">
                 <view class="_view data-v-73374a64 uni-media-list-text-top">{{item.title}}</view>
@@ -22,6 +22,6 @@
         </view>
       </view>
     </scroll-view>
-    <template mode="right" bindclose="handleProxy" data-eventid="{{'Ace-6'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'o7F-1'],$root, $slotdefault:'data-v-73374a64-default-o7F-1'}}" is="20d2f0ba"></template>
+    <template mode="right" bindclose="handleProxy" data-eventid="{{'sG4-6'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'SVF-1'],$root, $slotdefault:'data-v-73374a64-default-SVF-1'}}" is="20d2f0ba"></template>
   </view>
 </template>

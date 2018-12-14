@@ -2,7 +2,7 @@
   <view class="_view data-v-50dbbfee">
     <view class="_view data-v-50dbbfee uni-list">
       <view class="_view data-v-50dbbfee uni-list-cell" wx:key="index" key="{{index}}" wx:for="{{bookData}}" wx:for-index="index" wx:for-item="item">
-        <view class="_view data-v-50dbbfee uni-list-cell-navigate" bindtap="handleProxy" data-idx="{{index}}" data-eventid="{{'2dt-0-'+index}}" data-comkey="{{$k}}" style=" {{('background:' + (item.reading ? '#c7d6ed' : '') + ';')}}"> {{item.title}}
+        <view class="_view data-v-50dbbfee uni-list-cell-navigate" bindtap="handleProxy" data-idx="{{index}}" data-eventid="{{'rQ7-0-'+index}}" data-comkey="{{$k}}" style=" {{('background:' + (item.reading ? '#c7d6ed' : '') + ';')}}"> {{item.title}}
           <text class="_text data-v-50dbbfee {{item.isVip ? 'vip' : 'novip'}}">VIP</text>
         </view>
       </view>

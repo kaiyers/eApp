@@ -15,6 +15,13 @@
 				</view>
 			</view>
 		</view>
+		<view class="uni-list" style="margin-top: 40upx;">
+			<navigator url="../ysts/ysts" class="uni-list-cell">
+				<view class="uni-list-cell-navigate uni-navigate-right">
+					有声听书吧
+				</view>
+			</navigator>
+		</view>
 	</view>
 </template>
 

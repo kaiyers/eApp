@@ -5,7 +5,7 @@
 		<view :class="isXuan?'header_k':'header'">
 			<view class="input-view">
 				<uni-icon type="search" size="22" color="#666666"></uni-icon>
-				<input confirm-type="search" @confirm="confirm" class="input" :value="value" type="text" placeholder="输入搜索关键词" />
+				<input confirm-type="search" @tap="confirm" disabled="disabled" class="input" :value="value" type="text" placeholder="输入搜索关键词" />
 			</view>
 			<!-- <uni-icon type="mic-filled" size="22" color="#666666" @tap="startRecognize"></uni-icon> -->
 			<view @tap="startRecognize">
@@ -17,6 +17,7 @@
 			</view>
 			<!-- #endif -->
 		</view>
+		<!-- <audio src="http://180j.ysts8.com:8000/历史军事/明朝那些事儿_王更新/明朝那些事儿_003.mp3?10110447165007x1544774760x10110453295667-a6f9b0d675b51796606b6ab6680a1ffb?1" author="理更乱" controls></audio> -->
 		<!-- <image src="http://img.mp.sohu.com/upload/20170602/716a86a1ef4e46bb8eed2287a4a97bdc_th.png" mode="widthFix" style="width: 100%;"></image> -->
 		<view class="readArea" v-if="bookname" @tap="godetal">
 			<view class="biaoti">{{bookname}}</view>
@@ -187,9 +188,9 @@
 					url: '../bookcontenr/bookcontenr?idx=' + valu.nowCap + '&bid=' + valu.bid + '&isread=' + true
 				});
 			},
-			confirm(e) {
+			confirm() {
 				uni.navigateTo({
-					url: '../seekDetail/seekDetail?keyword='+e.detail.value,
+					url: '../seekDetail/seekDetail',
 				});
 			}
 		},

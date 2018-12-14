@@ -104,6 +104,10 @@
         {
             "path" : "pages/video/video",
             "style" : {}
+        },
+        {
+            "path" : "pages/ysts/ysts",
+            "style" : {}
         }
     ],
     "globalStyle" : {

@@ -4,7 +4,7 @@
 			console.log('App Launch');
 			//#ifdef APP-PLUS
 			/* 5+环境锁定屏幕方向 */
-			plus.screen.lockOrientation('portrait-primary'); //锁定
+			// plus.screen.lockOrientation('portrait-primary'); //锁定
 			/* 5+环境升级提示 */
 			var server = "https://uniapp.dcloud.io/update"; //检查更新地址
 			var req = { //升级检测数据

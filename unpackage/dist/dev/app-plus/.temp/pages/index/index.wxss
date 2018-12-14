@@ -1,5 +1,20 @@
 @import "../../common/vendor.wxss";
 
+.readArea {
+  height: 300rpx;
+  padding: 20rpx 5%;
+  background: url('http://img.mp.itc.cn/upload/20170422/0d5b690ce4564ef9868bceb51ad3cf63_th.gif');
+  background-size: 100% 100%;
+}
+.biaoti {
+  color: red;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.zhangshu {
+  color: yellow;
+  font-size: 28rpx;
+}
 .header {
   display: -webkit-box;
   display: -webkit-flex;

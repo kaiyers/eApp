@@ -2,11 +2,11 @@
   <view class="_view data-v-7a4271a4 container">
     <view class="_view data-v-7a4271a4 page-body">
       <scroll-view class="_scroll-view data-v-7a4271a4 nav-left" scroll-y style=" {{'height:' + height + 'px'}}">
-        <view class="_view data-v-7a4271a4 nav-left-item {{index == categoryActive ? 'active' : ''}}" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'SBX-0-'+index}}" data-comkey="{{$k}}" wx:for="{{categoryList}}" wx:for-index="index"
+        <view class="_view data-v-7a4271a4 nav-left-item {{index == categoryActive ? 'active' : ''}}" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'KW3-0-'+index}}" data-comkey="{{$k}}" wx:for="{{categoryList}}" wx:for-index="index"
           wx:for-item="item"> {{item}} </view>
       </scroll-view>
-      <scroll-view class="_scroll-view data-v-7a4271a4 nav-right" scroll-y scroll-top="{{scrollTop}}" bindscroll="handleProxy" scroll-with-animation data-eventid="{{'JAe-2'}}" data-comkey="{{$k}}" style=" {{'height:' + height + 'px'}}">
-        <view id="{{index===0?'first':''}}" class="_view data-v-7a4271a4 nav-right-item" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'Y40-1-'+index}}" data-comkey="{{$k}}" wx:for="{{subCategoryList}}" wx:for-index="index" wx:for-item="item">
+      <scroll-view class="_scroll-view data-v-7a4271a4 nav-right" scroll-y scroll-top="{{scrollTop}}" bindscroll="handleProxy" scroll-with-animation data-eventid="{{'OJp-2'}}" data-comkey="{{$k}}" style=" {{'height:' + height + 'px'}}">
+        <view id="{{index===0?'first':''}}" class="_view data-v-7a4271a4 nav-right-item" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'wt4-1-'+index}}" data-comkey="{{$k}}" wx:for="{{subCategoryList}}" wx:for-index="index" wx:for-item="item">
           <image src="{{item.img}}" class="_image data-v-7a4271a4"></image>
           <view class="_view data-v-7a4271a4">{{item.name}}</view>
         </view>
